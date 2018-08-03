@@ -1,4 +1,4 @@
-FROM node:6.11.4
+FROM node:10.8.0-slim
 
 # Install Google Chrome
 RUN wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | apt-key add -
